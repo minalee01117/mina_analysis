@@ -1,0 +1,30 @@
+comment_id,platform,comment,timestamp,cleaned_comment,emojis,sentiment_score,sentiment,likes,replies,impact_score,main_topic
+1,YouTube,Horrible! Nothing like advertised!,2026-01-02 13:14:23,Horrible! Nothing like advertised!,,-0.9997223019599915,Negative,1126,21,-1146.6814803481102,Others
+2,YouTube,Impressive quality! Love everything about it!,2025-12-08 13:14:23,Impressive quality! Love everything about it!,,0.9998906850814819,Positive,1459,88,1546.8308898210526,love
+3,Twitter,I absolutely love this product! Amazing quality!,2026-01-04 13:14:23,I absolutely love this product! Amazing quality!,,0.9998897314071655,Positive,860,48,907.8998761177063,amazing
+4,Twitter,Awful product! Returned immediately!,2025-12-14 13:14:23,Awful product! Returned immediately!,,-0.9994031190872192,Negative,1294,58,-1351.1930170059204,product
+5,Twitter,So happy with this! Perfect for what I needed!,2025-12-25 13:14:23,So happy with this! Perfect for what I needed!,,0.9998831748962402,Positive,1130,169,1298.848244190216,Others
+6,Instagram,"It's alright, does what it says",2025-12-18 13:14:23,"It's alright, does what it says",,0.9997803568840027,Positive,1095,187,1281.7184175252914,does
+7,Instagram,Wonderful experience! Thank you so much!,2025-12-22 13:14:23,Wonderful experience! Thank you so much!,,0.9998786449432373,Positive,1044,14,1057.871606349945,experience
+8,YouTube,Terrible experience! Would not recommend!,2025-12-11 13:14:23,Terrible experience! Would not recommend!,,-0.9943523406982422,Negative,121,189,-308.2492256164551,experience
+9,Twitter,"It's okay, nothing special but does the job",2025-12-30 13:14:23,"It's okay, nothing special but does the job",,0.9993544220924377,Positive,466,189,654.5771464705467,does
+10,Instagram,Best purchase I've ever made! Highly recommend!,2025-12-27 13:14:23,Best purchase I've ever made! Highly recommend!,,0.9998558759689331,Positive,1238,174,1411.7964968681335,purchase
+11,YouTube,It works fine for everyday use,2026-01-01 13:14:23,It works fine for everyday use,,0.9998354911804199,Positive,330,189,518.9146199226379,Others
+12,Instagram,Neutral feelings about this purchase,2025-12-11 13:14:23,Neutral feelings about this purchase,,-0.9971281886100769,Negative,1482,50,-1527.6003849506378,purchase
+13,YouTube,Very disappointed with the quality. Not worth it!,2025-12-29 13:14:23,Very disappointed with the quality. Not worth it!,,-0.9998075366020203,Negative,87,107,-193.96266210079193,quality
+15,Twitter,Brilliant! Exactly what I was looking for!,2025-12-12 13:14:23,Brilliant! Exactly what I was looking for!,,0.9998669624328613,Positive,1396,54,1449.807095527649,Others
+16,YouTube,Excellent service and great customer support!,2025-12-08 13:14:23,Excellent service and great customer support!,,0.9998798370361328,Positive,1123,63,1185.8574867248535,customer
+18,YouTube,"Pretty standard, no complaints",2025-12-17 13:14:23,"Pretty standard, no complaints",,0.9910181760787964,Positive,871,130,992.0091942548752,complaints
+20,Facebook,Decent quality for the price,2025-12-27 13:14:23,Decent quality for the price,,0.9998451471328735,Positive,130,50,179.97212648391724,decent
+23,YouTube,This is fantastic! Exceeded my expectations!,2025-12-15 13:14:23,This is fantastic! Exceeded my expectations!,,0.9998759031295776,Positive,1332,134,1465.8180739879608,expectations
+25,Instagram,Great value for money! Very satisfied!,2025-12-31 13:14:23,Great value for money! Very satisfied!,,0.9998456239700317,Positive,769,20,788.878197312355,great
+30,YouTube,Unacceptable quality! Very frustrated!,2025-12-31 13:14:23,Unacceptable quality! Very frustrated!,,-0.9998167157173157,Negative,343,72,-414.923937022686,quality
+31,Facebook,Outstanding! Will definitely buy again!,2025-12-24 13:14:23,Outstanding! Will definitely buy again!,,0.999871015548706,Positive,1437,166,1602.7932379245758,buy
+50,Instagram,Pathetic! Don't waste your time!,2025-12-22 13:14:23,Pathetic! Don't waste your time!,,-0.9985272884368896,Negative,805,17,-820.7894310951233,waste
+51,Facebook,Waste of money! Completely unsatisfied!,2026-01-01 13:14:23,Waste of money! Completely unsatisfied!,,-0.9998113512992859,Negative,385,131,-515.9026572704315,completely
+59,Instagram,"Not bad, not great, just okay",2025-12-13 13:14:23,"Not bad, not great, just okay",,0.9991618394851685,Positive,1215,88,1301.9078768491745,bad
+64,Twitter,"Regular product, nothing extraordinary",2025-12-22 13:14:23,"Regular product, nothing extraordinary",,-0.9981106519699097,Negative,955,59,-1012.0842010974884,product
+66,YouTube,Poor quality and bad customer service!,2025-12-26 13:14:23,Poor quality and bad customer service!,,-0.999800980091095,Negative,276,13,-288.94248324632645,bad
+83,YouTube,"Acceptable quality, no issues so far",2025-12-16 13:14:23,"Acceptable quality, no issues so far",,0.999126136302948,Positive,1184,8,1190.958354473114,quality
+84,YouTube,"Average product, met basic expectations",2025-12-15 13:14:23,"Average product, met basic expectations",,0.8519241809844971,Positive,459,89,466.8544511795044,expectations
+231,Facebook,Very unhappy with this purchase! Avoid!,2025-12-20 13:14:23,Very unhappy with this purchase! Avoid!,,-0.9997921586036682,Negative,1337,52,-1388.7113083004951,purchase
