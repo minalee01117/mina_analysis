@@ -5,6 +5,29 @@ import plotly.graph_objects as go
 import numpy as np
 import os
 from wordcloud import WordCloud
+import platform
+
+# --- FONT HELPER FOR STREAMLIT CLOUD (LINUX) & WINDOWS ---
+def get_font_path():
+    # If on Windows
+    if platform.system() == 'Windows':
+        paths = [
+            'C:\\Windows\\Fonts\\malgun.ttf',
+            'C:\\Windows\\Fonts\\tahoma.ttf',
+            'C:\\Windows\\Fonts\\arial.ttf'
+        ]
+        for p in paths:
+            if os.path.exists(p): return p
+    # If on Linux (Streamlit Cloud)
+    else:
+        paths = [
+            "/usr/share/fonts/truetype/nanum/NanumGothic.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/liberation/LiberationSans-Regular.ttf"
+        ]
+        for p in paths:
+            if os.path.exists(p): return p
+    return None # Fallback to default WordCloud font
 
 # --- PAGE CONFIG ---
 st.set_page_config(
@@ -570,7 +593,7 @@ with col_mask:
         contour_width=3, 
         contour_color='#00f3ff',
         colormap='cool',
-        font_path='C:\\Windows\\Fonts\\malgun.ttf'
+        font_path=get_font_path()
     ).generate(text)
     
     st.image(wc_m.to_array(), use_container_width=True)
@@ -590,7 +613,7 @@ def display_wc_box(dataframe, title, color_map, bg_color):
         width=1200, height=600, 
         background_color=bg_color, 
         colormap=color_map,
-        font_path='C:\\Windows\\Fonts\\malgun.ttf'
+        font_path=get_font_path()
     ).generate(txt)
     
     st.markdown(f"#### {title}")
